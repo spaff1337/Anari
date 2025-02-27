@@ -1,0 +1,9 @@
+name: Anari
+version: '0.0.1'
+main: me.spaff.anari.Main
+api-version: '1.21'
+commands:
+  anari:
+    description: Manage commands for Anari
+    permission: anari.command.execute
+    aliases: [ an ]
